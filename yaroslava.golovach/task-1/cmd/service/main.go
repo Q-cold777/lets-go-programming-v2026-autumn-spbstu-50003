@@ -5,8 +5,10 @@ import (
 )
 
 func main() {
-	var firstOperand, secondOperand int
-	var op string
+	var (
+		firstOperand, secondOperand int
+		op string
+	)
 
 	_, err := fmt.Scan(&firstOperand)
 	if err != nil {
