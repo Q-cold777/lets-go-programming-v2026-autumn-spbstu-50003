@@ -7,7 +7,7 @@ import (
 func main() {
 	var (
 		firstOperand, secondOperand int
-		op string
+		op                          string
 	)
 
 	_, err := fmt.Scan(&firstOperand)
